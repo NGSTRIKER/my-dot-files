@@ -1,0 +1,203 @@
+{
+  "colorSource": "magick",
+  "components": {
+    "wallpaperSelector": {
+      "displayMode": "hex",
+      "flipEffect": "Ash",
+      "gridColumns": 6,
+      "gridLayout": "cylinder",
+      "gridRows": 4,
+      "lastAppliedKey": "a_painting_of_a_man_with_a_face_on_his_head",
+      "sliceEdgeTilt": 0,
+      "sliceParallax": false,
+      "sliceShadows": true,
+      "sliceSpacing": 15,
+      "sliceWobble": true,
+      "tagCloudRows": "3"
+    }
+  },
+  "compositor": "hyprland",
+  "effects": {
+    "autoRecolor": false
+  },
+  "externalWallpaperCommand": "",
+  "features": {
+    "matugen": true,
+    "steam": false,
+    "wallhaven": true
+  },
+  "general": {
+    "closeOnSelection": true,
+    "reopenAtLastSelection": false
+  },
+  "integrations": [
+    {
+      "_comment": "Built-in: MD3 colors for the shell UI (always needed)",
+      "name": "ryogami-wall",
+      "output": "colors.json",
+      "template": "quickshell-colors.json"
+    },
+    {
+      "_comment": "MD3 colors for the Ryogami shell widgets",
+      "name": "ryogami",
+      "output": "~/.cache/ryogami/colors.json",
+      "template": "quickshell-colors.json"
+    },
+    {
+      "name": "kitty",
+      "output": "~/.config/kitty/ryogami-theme.conf",
+      "reload": "pkill -USR1 kitty",
+      "template": "kitty.conf"
+    },
+    {
+      "name": "ghostty",
+      "output": "~/.config/ghostty/ryogami-theme",
+      "reload": "pkill -USR2 ghostty",
+      "template": "ghostty.conf"
+    },
+    {
+      "name": "kde",
+      "output": "~/.local/share/color-schemes/RyogamiMatugen.colors",
+      "reload": "~/.config/ryogami-wall/scripts/reload-kde.sh",
+      "template": "kde-colors.colors"
+    },
+    {
+      "name": "vscode",
+      "output": "~/.vscode/extensions/matugen.matugen-theme-1.0.0/themes/matugen-color-theme.json",
+      "template": "vscode-theme.json"
+    },
+    {
+      "name": "vesktop",
+      "output": "~/.config/vesktop/themes/kitty-match.css",
+      "template": "vesktop.css"
+    },
+    {
+      "name": "yazi",
+      "output": "~/.config/yazi/theme.toml",
+      "template": "yazi-theme.toml"
+    },
+    {
+      "name": "qt6ct",
+      "output": "~/.config/qt6ct/colors/matugen.conf",
+      "template": "qt6ct-colors.conf"
+    },
+    {
+      "_comment": "Update output path with your Zen browser profile directory",
+      "name": "zen",
+      "output": "~/.config/zen/PROFILE_DIR/chrome/userChrome.css",
+      "template": "zen.css"
+    }
+  ],
+  "launch": {
+    "animation": "rise"
+  },
+  "matugen": {
+    "mode": "dark"
+  },
+  "monitor": "",
+  "motion": {
+    "filterSwapSpeed": "fast"
+  },
+  "overviewBackdrop": {
+    "blur": 45,
+    "blurEnabled": true,
+    "dim": 0,
+    "enabled": true,
+    "followWallpaper": true
+  },
+  "paths": {
+    "cache": "",
+    "scripts": "",
+    "steam": "",
+    "steamWeAssets": "",
+    "steamWorkshop": "",
+    "templates": "",
+    "videoWallpaper": "~/videowalls",
+    "wallpaper": ""
+  },
+  "performance": {
+    "autoConvertVideos": false,
+    "autoDeleteImageTrash": false,
+    "autoDeleteVideoTrash": false,
+    "autoOptimizeImages": false,
+    "imageOptimizePreset": "balanced",
+    "imageOptimizeResolution": "2k",
+    "imageTrashDays": 7,
+    "videoConvertPreset": "balanced",
+    "videoConvertResolution": "2k",
+    "videoTrashDays": 7
+  },
+  "pickOnlyMode": false,
+  "postProcessing": [],
+  "schedule": {
+    "enabled": false,
+    "rules": [
+      {
+        "condition": {
+          "children": [
+            {
+              "block": "timewindow",
+              "from": "sunrise",
+              "negated": false,
+              "to": "sunset"
+            }
+          ],
+          "negated": false,
+          "op": "all"
+        },
+        "enabled": true,
+        "name": "Day",
+        "noRepeat": true,
+        "priority": 100,
+        "rotateMinutes": 60,
+        "target": {
+          "type": "random"
+        },
+        "theme": "keep"
+      },
+      {
+        "condition": {
+          "children": [
+            {
+              "block": "timewindow",
+              "from": "sunset",
+              "negated": false,
+              "to": "sunrise"
+            }
+          ],
+          "negated": false,
+          "op": "all"
+        },
+        "enabled": true,
+        "name": "Night",
+        "noRepeat": true,
+        "priority": 100,
+        "rotateMinutes": 60,
+        "target": {
+          "type": "random"
+        },
+        "theme": "keep"
+      }
+    ]
+  },
+  "steam": {
+    "apiKey": "",
+    "username": ""
+  },
+  "theme": {
+    "policy": "fixed",
+    "staticTheme": "Nord Dark"
+  },
+  "transition": {
+    "durationMs": 900,
+    "enabled": true,
+    "shader": "random"
+  },
+  "wallhaven": {
+    "apiKey": ""
+  },
+  "wallpaperMute": true,
+  "weRender": {
+    "fps": 30
+  }
+}

@@ -1,0 +1,51 @@
+{
+    "depth": {
+        "cut": {
+            "matting": true,
+            "model": "silueta"
+        },
+        "edge": 0.14,
+        "front": [
+        ],
+        "shadow": 0.78,
+        "shadowAngle": 162
+    },
+    "editGridSize": 16,
+    "editGridSnap": false,
+    "parallax": {
+        "cut": {
+            "matting": false,
+            "model": "u2netp"
+        },
+        "depthBackdrop": true,
+        "edge": 0.15,
+        "front": [
+            "irisVisualizer",
+            "visualizer"
+        ],
+        "motion": {
+            "amount": "normal",
+            "backdrop": 0,
+            "idle": "none",
+            "mouse": false,
+            "music": true,
+            "musicLevel": 0.6,
+            "range": 1,
+            "sensitivity": 1,
+            "speed": 1
+        },
+        "shadow": 0,
+        "shadowAngle": 90
+    },
+    "spatial": {
+        "model": "small",
+        "motion": {
+            "amount": "normal",
+            "mouse": true,
+            "range": 1,
+            "sensitivity": 1
+        },
+        "shadowAngle": 90
+    },
+    "version": 3
+}

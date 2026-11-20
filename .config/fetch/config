@@ -1,0 +1,18 @@
+label_color=red
+custom_■=RYOKU · 力 · a hand-built Arch Linux desktop
+---
+cpu
+gpu
+memory
+disk
+---
+os
+kernel
+wm
+shell
+packages
+---
+uptime
+terminal
+---
+colors

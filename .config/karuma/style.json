@@ -1,0 +1,14 @@
+{
+  "opacity": 0.2,
+  "layout": "strip",
+  "shape": "pill",
+  "cornerRadius": 23,
+  "innerRadiusBias": 11,
+  "borderWidth": 0.5,
+  "borderOpacity": 0.28,
+  "workspaceStyle": "dots",
+  "edge": "top",
+  "railWidth": 53,
+  "align": "start",
+  "textScale": 0.78
+}

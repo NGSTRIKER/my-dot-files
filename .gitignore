@@ -1,0 +1,9 @@
+*.lock
+*.bak
+*.tmp
+.DS_Store
+__pycache__/
+fish_variables
+keyring.json
+stash.json
+rashin.json

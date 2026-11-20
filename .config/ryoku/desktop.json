@@ -1,0 +1,256 @@
+{
+  "desktop": {
+    "appOverrides": [
+      {
+        "anim": "inherit",
+        "blur": "inherit",
+        "borderSize": -1,
+        "class": "kitty",
+        "dim": "inherit",
+        "opacity": 0.8382,
+        "opaque": "inherit",
+        "rounding": -1,
+        "shadow": "inherit",
+        "title": ""
+      }
+    ],
+    "appearance": {
+      "activeBorder": "#e0563b",
+      "activeOpacity": 1,
+      "animatedBorder": true,
+      "animations": true,
+      "blurBrightness": 1,
+      "blurContrast": 0.8916,
+      "blurEnabled": false,
+      "blurIgnoreOpacity": true,
+      "blurNewOptimizations": true,
+      "blurNoise": 0.01,
+      "blurPasses": 2,
+      "blurPopups": false,
+      "blurSize": 2,
+      "blurSpecial": false,
+      "blurVibrancy": 0.17,
+      "blurVibrancyDarkness": 0,
+      "blurXray": false,
+      "borderAngleSpeed": 5,
+      "borderFollowsPalette": true,
+      "borderPartOfWindow": true,
+      "borderSize": 0,
+      "dimAround": 0.4,
+      "dimInactive": false,
+      "dimModal": true,
+      "dimSpecial": 0.2,
+      "dimStrength": 0.5,
+      "extendBorderGrab": 15,
+      "fullscreenOpacity": 1,
+      "gapsIn": 9,
+      "gapsOut": 12,
+      "gapsWorkspaces": 4,
+      "glowColor": "#ee33cc",
+      "glowEnabled": false,
+      "glowRange": 10,
+      "hoverIconOnBorder": true,
+      "inactiveBorder": "#313a4d",
+      "inactiveOpacity": 1,
+      "layout": "scrolling",
+      "noFocusFallback": false,
+      "resizeCorner": 0,
+      "resizeOnBorder": true,
+      "rounding": 0,
+      "roundingPower": 4,
+      "shadowColor": "#000000",
+      "shadowEnabled": true,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 5,
+      "shadowPower": 4,
+      "shadowRange": 45,
+      "shadowScale": 1,
+      "shadowSharp": false,
+      "shadowSpread": 0,
+      "snapEnabled": false,
+      "windowStyle": "pop",
+      "wobblyWindows": true
+    },
+    "autostart": [],
+    "cursor": {
+      "hideOnKeyPress": false,
+      "inactiveTimeout": 0,
+      "size": 24,
+      "theme": "Bibata-Modern-Ice"
+    },
+    "env": [],
+    "input": {
+      "accelProfile": "",
+      "clickfinger": true,
+      "disableWhileTyping": true,
+      "followMouse": 1,
+      "kbLayout": "us",
+      "kbOptions": "",
+      "kbVariant": "",
+      "leftHanded": true,
+      "middleClickPaste": true,
+      "middleEmulation": false,
+      "mouseNaturalScroll": false,
+      "mouseScrollFactor": 1,
+      "naturalScroll": true,
+      "numlockByDefault": false,
+      "repeatDelay": 600,
+      "repeatRate": 25,
+      "sensitivity": 0,
+      "swipeCreateNew": true,
+      "swipeDistance": 300,
+      "swipeFingers": 3,
+      "swipeInvert": true,
+      "tapAndDrag": true,
+      "tapToClick": true,
+      "touchScrollFactor": 1,
+      "workspaceSwipe": false
+    },
+    "keybinds": [],
+    "windowRules": [],
+    "windows": {
+      "tameMaximizeOnOpen": false
+    }
+  },
+  "wm": {
+    "hyprland": {
+      "anim": {
+        "curves": [
+          {
+            "name": "ryokuRiceEase",
+            "x0": 0.25,
+            "x1": 0.25,
+            "y0": 0.1,
+            "y1": 1
+          }
+        ],
+        "items": [
+          {
+            "bezier": "ryokuRiceEase",
+            "enabled": true,
+            "leaf": "windows",
+            "speed": 4,
+            "style": "popin 90%"
+          },
+          {
+            "bezier": "ryokuRiceEase",
+            "enabled": true,
+            "leaf": "windowsMove",
+            "speed": 4,
+            "style": ""
+          },
+          {
+            "bezier": "ryokuRiceEase",
+            "enabled": true,
+            "leaf": "workspaces",
+            "speed": 4,
+            "style": "slide"
+          },
+          {
+            "bezier": "ryokuRiceEase",
+            "enabled": true,
+            "leaf": "fade",
+            "speed": 4,
+            "style": ""
+          },
+          {
+            "bezier": "ryokuRiceEase",
+            "enabled": true,
+            "leaf": "layers",
+            "speed": 4,
+            "style": "fade"
+          }
+        ]
+      },
+      "dwindle": {
+        "defaultSplitRatio": 1,
+        "forceSplit": "follow",
+        "preserveSplit": false,
+        "smartResizing": true,
+        "smartSplit": false,
+        "useActiveForSplits": true
+      },
+      "layerRules": [],
+      "master": {
+        "mfact": 0.55,
+        "newOnTop": false,
+        "newStatus": "slave",
+        "orientation": "left",
+        "smartResizing": true
+      },
+      "plugins": {
+        "borders-plus-plus": {
+          "color": "#FFFFFF",
+          "count": 1,
+          "enabled": true,
+          "naturalRounding": true,
+          "size": 1
+        },
+        "dynamicCursors": {
+          "enabled": true,
+          "magnify": 4,
+          "mode": "stretch",
+          "shake": true
+        },
+        "hyprbars": {
+          "blur": true,
+          "buttons": true,
+          "enabled": false,
+          "height": 26,
+          "textSize": 11
+        },
+        "hyprfocus": {
+          "bounce": 0.95,
+          "enabled": true,
+          "mode": "bounce",
+          "opacity": 0.8,
+          "slide": 20
+        },
+        "hyprglass": {
+          "blurStrength": 2,
+          "brightness": 1,
+          "enabled": false,
+          "opacity": 0.57,
+          "preset": "glass",
+          "theme": "dark",
+          "tint": "8899aa22"
+        },
+        "hyprgrass": {
+          "edgeMargin": 10,
+          "enabled": false,
+          "longPressDelay": 400,
+          "resizeOnBorderLongPress": false,
+          "sensitivity": 1,
+          "threeFingerTap": false
+        },
+        "hyprscrolling": {
+          "columnWidth": 0.5,
+          "followFocus": true
+        },
+        "imgborders": {
+          "blur": false,
+          "enabled": false,
+          "image": "",
+          "insets": "0,0,0,0",
+          "scale": 1,
+          "sizes": "8,8,8,8",
+          "smooth": true
+        },
+        "keysounds": {
+          "enabled": true,
+          "profile": "holy-panda",
+          "release": true,
+          "volume": 0.6
+        }
+      },
+      "render": {
+        "autoHdr": false
+      },
+      "settingsWindow": {
+        "height": 0.5,
+        "mode": "full",
+        "width": 0.5
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "blurRadius": 64,
+  "mosaicBlock": 12,
+  "zoomFactor": 2,
+  "copyOnSave": false,
+  "saveDir": "",
+  "delaySeconds": 0,
+  "recordMic": false,
+  "lastAction": "shot",
+  "toolStyle": {
+    "rect": {
+      "color": "#c8cc78",
+      "width": 4,
+      "filled": true
+    }
+  }
+}

@@ -1,0 +1,148 @@
+/* Ryoku palette -> Obsidian. Rendered by matugen; do not edit. Linked into each
+   vault's snippets by ryoku doctor and enabled as the "ryoku" CSS snippet. */
+
+body.theme-dark.theme-dark.theme-dark,
+body.theme-light.theme-light.theme-light {
+
+    /* Material 3 RGB helpers */
+    --mat-bg-rgb:             24, 19, 11;
+    --mat-surface-rgb:        24, 19, 11;
+    --mat-on-surface-rgb:     237, 225, 212;
+    --mat-primary-rgb:        242, 190, 110;
+    --mat-on-primary-rgb:     68, 44, 0;
+
+    /* Core backgrounds */
+    --background-primary:           #18130b;
+    --background-primary-alt:       #18130b;
+    --background-secondary:         #201b13;
+    --background-secondary-alt:     #241f17;
+
+    /* Titlebar */
+    --titlebar-background:          #18130b;
+    --titlebar-background-focused:  #201b13;
+    --titlebar-text-color:          #ede1d4;
+
+    /* Borders and dividers */
+    --background-modifier-border:         #4f4539;
+    --background-modifier-border-focus:   #9b8f80;
+    --background-modifier-border-hover:   #9b8f80;
+
+    /* Text colors */
+    --text-normal:      #ede1d4;
+    --text-muted:       #d2c4b4;
+    --text-faint:       #9b8f80;
+    --text-on-accent:   #442c00;
+    --text-selection:   rgba(242, 190, 110, 0.25);
+
+    /* Accent and interactive */
+    --interactive-accent:           #f2be6e;
+    --interactive-accent-hover:     #614000;
+    --interactive-accent-rgb:       242, 190, 110;
+    --text-accent:                  #f2be6e;
+    --text-accent-hover:            #614000;
+
+    /* Accent HSL triple. Obsidian's core builds --color-accent and the
+       theme-facing --color-accent-hsl from --accent-h/s/l, and popular themes
+       read that triple directly rather than --interactive-accent, so the
+       wallpaper accent has to land here to reach every accent surface. */
+    --accent-h: 36;
+    --accent-s: 84%;
+    --accent-l: 69%;
+    --color-accent-hsl:       var(--accent-h), var(--accent-s), var(--accent-l);
+    --interactive-accent-hsl: var(--color-accent-hsl);
+
+    /* Hover and active modifiers */
+    --background-modifier-hover:          rgba(var(--mat-on-surface-rgb), 0.06);
+    --background-modifier-active-hover:   rgba(var(--mat-primary-rgb), 0.15);
+    --background-modifier-success:        #55442a;
+    --background-modifier-error:          #ffb4ab;
+    --background-modifier-error-hover:    #ffb4ab;
+
+    /* Obsidian color scale */
+    --color-base-00:    #18130b;
+    --color-base-05:    #18130b;
+    --color-base-10:    #120d07;
+    --color-base-20:    #201b13;
+    --color-base-25:    #241f17;
+    --color-base-30:    #2f2921;
+    --color-base-35:    #3a342b;
+    --color-base-40:    #4f4539;
+    --color-base-50:    #9b8f80;
+    --color-base-60:    #d2c4b4;
+    --color-base-70:    #ede1d4;
+    --color-base-100:   #ede1d4;
+
+    /* Semantic colors */
+    --color-red:        #ffb4ab;
+    --color-orange:     #b6cea3;
+    --color-yellow:     #dcc3a1;
+    --color-green:      #55442a;
+    --color-cyan:       #55442a;
+    --color-blue:       #f2be6e;
+    --color-purple:     #dcc3a1;
+    --color-pink:       #b6cea3;
+
+    /* Headings */
+    --h1-color:     #f2be6e;
+    --h2-color:     #f2be6e;
+    --h3-color:     #dcc3a1;
+    --h4-color:     #b6cea3;
+    --h5-color:     #d2c4b4;
+    --h6-color:     #9b8f80;
+
+    /* Links */
+    --link-color:            #f2be6e;
+    --link-color-hover:      #ffddb0;
+    --link-external-color:   #b6cea3;
+    --link-unresolved-color: #9b8f80;
+
+    /* Tags */
+    --tag-color:            #ffddb0;
+    --tag-background:       #614000;
+    --tag-border-color:     #f2be6e;
+    --tag-color-hover:      #442c00;
+    --tag-background-hover: #f2be6e;
+
+    /* Checkboxes */
+    --checkbox-color:        #f2be6e;
+    --checkbox-color-hover:  #614000;
+    --checkbox-border-color: #9b8f80;
+    --checkbox-marker-color: #442c00;
+
+    /* Code blocks */
+    --code-background:  #201b13;
+    --code-normal:      #ede1d4;
+    --code-comment:     #9b8f80;
+    --code-function:    #f2be6e;
+    --code-important:   #ffb4ab;
+    --code-keyword:     #dcc3a1;
+    --code-operator:    #b6cea3;
+    --code-property:    #d2c4b4;
+    --code-punctuation: #4f4539;
+    --code-string:      #b6cea3;
+    --code-tag:         #ffb4ab;
+    --code-value:       #dcc3a1;
+
+    /* Scrollbar */
+    --scrollbar-thumb-bg:        rgba(var(--mat-on-surface-rgb), 0.12);
+    --scrollbar-active-thumb-bg: rgba(var(--mat-on-surface-rgb), 0.25);
+    --scrollbar-bg:              transparent;
+
+    /* Inputs */
+    --input-shadow: none;
+    --input-shadow-hover: 0 0 0 2px #9b8f80;
+
+    /* Graph view */
+    --graph-node:            #f2be6e;
+    --graph-node-unresolved: #9b8f80;
+    --graph-node-focused:    #ffddb0;
+    --graph-node-tag:        #dcc3a1;
+    --graph-node-attachment: #b6cea3;
+    --graph-line:            #4f4539;
+    --graph-background:      #18130b;
+
+}
+
+.cm-active {
+    background-color: rgba(var(--mat-on-surface-rgb), 0.03) !important;
+}
