@@ -85,6 +85,13 @@ for json_file in \
   fi
 done
 
+# Copy bundled ryoku fastfetch renderer hook
+DATA_DST="${XDG_DATA_HOME:-$HOME/.local/share}"
+if [ -d "$REPO_DIR/.local/share/ryoku/fastfetch" ]; then
+  mkdir -p "$DATA_DST/ryoku/fastfetch"
+  cp -a "$REPO_DIR/.local/share/ryoku/fastfetch/." "$DATA_DST/ryoku/fastfetch/"
+fi
+
 # Copy bundled wallpapers
 WALL_DST="$HOME/Pictures/Wallpapers/abstract"
 mkdir -p "$WALL_DST"

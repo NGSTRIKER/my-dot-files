@@ -13,7 +13,7 @@ My CachyOS (Arch-based) + Hyprland rice dotfiles, built on **Ryoku**, **Quickshe
 | Active Rice Profile | `noc` (`.config/ryoku/rices/noc/`) |
 | Terminals | Kitty (`SpaceMono Nerd Font`), Ghostty, Alacritty |
 | Shell & Prompt | Fish (`fish/config.fish`, `fish/user.fish`), Starship (`mythos` pill palette), Zsh/Bash helpers |
-| System Fetch | Fastfetch (`3d-arch/spin` emblem + custom layout) |
+| System Fetch | Fastfetch / `fetch` (`3d-cachyos/spin` spinning CachyOS logo + custom layout) |
 | Editor | Neovim (LazyVim + Ryoku plugins) |
 | File Manager / Monitor / Visualizer / Reader | Yazi, btop, Cava, Zathura, Tmux, Zed |
 | Cursor / Icons / GTK / Qt | `Bibata-Modern-Ice`, `ryoku-folders` / `Papirus-Dark`, `adw-gtk3-dark`, `qt6ct` (`Space Grotesk` / `SpaceMono Nerd Font`) |
