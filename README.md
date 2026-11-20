@@ -1,12 +1,12 @@
 # my-dot-files
 
-My Arch Linux + Hyprland rice dotfiles, built on **Ryoku**, **Quickshell**, and **Matugen**.
+My CachyOS (Arch-based) + Hyprland rice dotfiles, built on **Ryoku**, **Quickshell**, and **Matugen**.
 
 ## Stack Overview
 
 | Component | Tool / Config |
 |---|---|
-| OS | Arch Linux |
+| OS | CachyOS (Arch Linux base) |
 | Compositor | Hyprland (configured via Ryoku `hl` Lua API in `.config/hypr/`) |
 | Shell / Bar / Dock / Widgets | Ryoku Shell (`quickshell` / `qsbar`), `macbar`, `macdock`, `macwidgets`, `karuma` |
 | Theme / Dynamic Colors | Matugen + Ryogami (`matugen/`, `ryoku/matugen.json`, `ryoku/theme.json`, `ryoku/ryogami.json`) |
@@ -30,7 +30,7 @@ My Arch Linux + Hyprland rice dotfiles, built on **Ryoku**, **Quickshell**, and 
 
 ## Installation
 
-> **Note:** This setup targets Arch Linux with Ryoku packages (`ryoku`, `ryoku-shell`, `ryoku-desktop-hyprland`, `quickshell`, `matugen`, `hyprland`, `kitty`, `fish`, `starship`, `fastfetch`, `neovim`, `btop`, `cava`, `yazi`, `zathura`, `qt6ct`).
+> **Note:** This setup targets CachyOS / Arch Linux with Ryoku packages (`ryoku`, `ryoku-shell`, `ryoku-desktop-hyprland`, `quickshell`, `matugen`, `hyprland`, `kitty`, `fish`, `starship`, `fastfetch`, `neovim`, `btop`, `cava`, `yazi`, `zathura`, `qt6ct`).
 
 1. Clone the repository:
    ```bash
